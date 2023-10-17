@@ -1,0 +1,257 @@
+
+/* ---- MOBILE ---- */
+
+#nav2 {
+    display: none;
+ }
+ 
+ #nav3 {
+    display: none;
+ }
+ 
+ #hero {
+    height: 115px;
+ }
+ 
+ #bckg-colr {
+    height: 246px;
+    background-color: #817162;
+  
+ }
+ #text {
+    display: none;
+ }
+ 
+ #image-shape {
+    height: 246px;
+ }
+ 
+ #heading {
+    height: 67px
+ }
+ 
+ #prod-img-1{
+    height:246px;
+ }
+ 
+ #prod-img-2 {
+    display:none;
+ }
+ 
+ #prod-img-3 {
+    display:none;
+ }
+ 
+ #prod-img-4 {
+    display:none;
+ }
+ 
+ #heading-2 {
+    height: 67px
+ }
+ 
+ #share {
+    height:152px;
+ }
+ 
+ #heading-3 {
+    height: 65px;
+ }
+ 
+ #email {
+    height: 46px;
+ }
+ 
+ #phone {
+    height: 46px;
+ }
+ 
+ #sign-up {
+    height: 46px;
+ }
+ 
+ #insta-icon {
+    height: 54px;
+ }
+ 
+
+
+/* ---- Tablet ---- */
+
+@media screen and (min-width: 768px) {
+
+    #nav2 {
+        display: none;
+     }
+  
+     #nav3 {
+        display: none;
+     }
+  
+     #hero {
+        height: 296px;
+     }
+  
+     #pop-up {
+        display: none;
+     }
+  
+     #bckg-colr {
+        height: 255px;
+        background-color: #817162;
+      
+     }
+  
+     #heading {
+        height: 108px
+     }
+  
+     #text {
+     height: 255px; 
+     display: inline-block;
+     }
+  
+     #prod-img-1{
+        height:280px;
+        display: inline-block;
+     }
+     
+     #prod-img-2 {
+        height:280px;
+        display: inline-block;
+     }
+     
+     #prod-img-3 {
+        height:280px;
+        display: inline-block;
+     }
+     
+     #prod-img-4 {
+        height:280px;
+        display: inline-block;
+     }
+  
+     #heading-2 {
+        height: 108px
+     }
+  
+     #share {
+        height:242px;
+     }
+  
+     #heading-3 {
+        height: 85px;
+     }
+  
+     #email {
+        height: 68px;
+     }
+  
+     #phone {
+        height: 68px;
+     }
+  
+    #sign-up {
+     height: 68px;
+     }
+  
+     #insta-icon {
+        height: 60px;
+     } 
+  
+   
+
+}
+
+
+/* ---- DESKTOP ---- */
+
+@media screen and (min-width: 1920px) {
+
+    header {
+        background-color: #F5EDE4;
+    }
+
+    #nav2 {
+        display: inline-block;
+    }
+     
+     #nav3 {
+        display: inline-block;
+    }
+  
+     #bckg-colr {
+        height: 800px;
+        margin-left: -130px;
+        background-color: #817162;
+      
+    }
+  
+     #text {
+        height: 823px;
+        display: inline-block;
+    }
+  
+     #image-shape {
+        height: 683px;
+    }
+  
+     #text {
+        height: 683px;
+    }
+  
+     #heading {
+        height: 343px
+    }
+  
+     #prod-img-1{
+        height:738px;
+        display: inline-block;
+    }
+     
+     #prod-img-2 {
+        height:738px;
+        display: inline-block;
+    }
+     
+     #prod-img-3 {
+        height:738px;
+        display: inline-block;
+    }
+     
+     #prod-img-4 {
+        height:738px;
+        display: inline-block;
+    }
+  
+     #heading-2 {
+        height: 343px
+    }
+  
+     #share {
+        height:779px;
+    }
+  
+     #heading-3 {
+        height: 198px;
+    }
+  
+     #email {
+        height: 132px;
+    }
+  
+    #phone {
+     height: 132px;
+    }
+  
+    #sign-up {
+     height: 132px;
+    }
+  
+    #insta-icon {
+     height: 98px;
+    } 
+
+}
+
+
