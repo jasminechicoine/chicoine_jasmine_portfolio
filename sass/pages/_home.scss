@@ -1,6 +1,9 @@
 
-/* ---- MOBILE ---- */
 
+/* ---- MOBILE ---- */
+header {
+   background-color: #F2ECE1;
+}
 #nav2 {
     display: none;
  }
@@ -9,157 +12,227 @@
     display: none;
  }
  
- #hero {
-    height: 115px;
- }
  
  #bckg-colr {
-    height: 246px;
+    height: 346px;
     background-color: #817162;
   
  }
- #text {
-    display: none;
- }
+
  
- #image-shape {
-    height: 246px;
+ #bckg-colr-2 {
+    height: 346px;
+    background-color: #F5EDE4;
  }
- 
- #heading {
-    height: 67px
- }
+
+ #bckg-colr-3 {
+   height: 346px;
+   background-color: #817162;
+}
+#text-3 {
+   height: 200px;
+}
+
+#bckg-colr-4 {
+   height: 346px;
+   background-color: #D9C7B7;
+}
+
+#text-box {
+   height: 200px;
+   background-color: #F5EDE4;
+}
  
  #prod-img-1{
-    height:246px;
+    height:346px;
+ }
+
+ #text-1 {
+   height: 200px;
+   background-color: #F2ECE1;
  }
  
  #prod-img-2 {
-    display:none;
+
+    height: 346px;
+ }
+
+ #text-2 {
+ height: 200px;
+ background-color: #D9C7B7;
  }
  
  #prod-img-3 {
-    display:none;
+   
+    height: 346px;
  }
  
  #prod-img-4 {
-    display:none;
+   height: 346px;
+ }
+
+ #prod-img-5 {
+   height: 346px;
  }
  
- #heading-2 {
-    height: 67px
+ footer {
+   background-color: #F2ECE1;
  }
  
- #share {
-    height:152px;
- }
  
- #heading-3 {
-    height: 65px;
- }
  
- #email {
-    height: 46px;
- }
  
- #phone {
-    height: 46px;
- }
- 
- #sign-up {
-    height: 46px;
- }
- 
- #insta-icon {
-    height: 54px;
- }
- 
+
 
 
 /* ---- Tablet ---- */
 
 @media screen and (min-width: 768px) {
 
-    #nav2 {
-        display: none;
-     }
-  
-     #nav3 {
-        display: none;
-     }
-  
-     #hero {
-        height: 296px;
-     }
-  
-     #pop-up {
-        display: none;
-     }
-  
-     #bckg-colr {
-        height: 255px;
-        background-color: #817162;
+   header {
+      height:150px;
+      background-color: #F5EDE4;
       
-     }
-  
-     #heading {
-        height: 108px
-     }
-  
-     #text {
-     height: 255px; 
-     display: inline-block;
-     }
-  
-     #prod-img-1{
-        height:280px;
-        display: inline-block;
-     }
-     
-     #prod-img-2 {
-        height:280px;
-        display: inline-block;
-     }
-     
-     #prod-img-3 {
-        height:280px;
-        display: inline-block;
-     }
-     
-     #prod-img-4 {
-        height:280px;
-        display: inline-block;
-     }
-  
-     #heading-2 {
-        height: 108px
-     }
-  
-     #share {
-        height:242px;
-     }
-  
-     #heading-3 {
-        height: 85px;
-     }
-  
-     #email {
-        height: 68px;
-     }
-  
-     #phone {
-        height: 68px;
-     }
-  
-    #sign-up {
-     height: 68px;
-     }
-  
-     #insta-icon {
-        height: 60px;
-     } 
-  
+  }
+
+  #nav2 {
+      display: inline-block;
+  }
    
+   #nav3 {
+      display: inline-block;
+  }
+
+   #bckg-colr {
+     margin-top: 0;
+      height: 350px;
+     margin-left: -80px;
+      background-color: #817162;
+      position: relative;
+    
+  }
+
+  #prod-img-1{
+    height:246px;
+    width: 262px;
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-left: 80px;
+}
+
+#text-1 {
+
+    height:139px;
+    width: 262px;
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-left: 289px;
+    background-color: #F2ECE1;
+}
+
+#bckg-colr-2 {
+      height: 350px;
+      background-color: #F5EDE4;
+      margin-top: 50px;
+      position: relative;
+  }
+
+  #prod-img-2{
+    margin-top: 200px;
+    height:246px;
+    width: 262px;
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-left: 289px;
+}
+
+#text-2 {
+
+    height:139px;
+    width: 262px;
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-left: 80px;
+    background-color: #D9C7B7;
+}
+
+  #bckg-colr-3 {
+    height: 350px;
+    background-color: #817162;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+#prod-img-3{
+ height: 166px;
+ width: 262px;
+ display: inline-block;
+ position: absolute;
+ margin-top: 216px;
+ margin-left: 451px;
+ z-index: 1;
+}
+
+#text-3 {
+
+ height:200px;
+ width: 262px;
+ display: inline-block;
+ position: absolute;
+ align-self: center;
+ margin-left: 63px;
+ background-color: #FFFFFF;
+}
+
+#text-box {
+ height:366px;
+ width: 262px;
+ display: inline-block;
+ position: absolute;
+ align-self: center;
+ margin-left: 289px;
+ margin-top: 233px;
+ background-color: #F5EDE4;
+
+}
+
+#bckg-colr-4 {
+ height: 366px;
+ width: 380px;
+ margin-left: -80px;
+ background-color: #D9C7B7;
+ margin-top:150px;
+ position: relative;
+}
+
+#prod-img-4{
+ height: 300px;
+ width: 200px;
+ display: inline-block;
+ position: absolute;
+ margin-top: 170px;
+ margin-left: 20px;
+ align-self: center;
+ z-index: 1;
+}
+#prod-img-5{
+ height: 300px;
+ width: 200px;
+ display: inline-block;
+ position: absolute;
+ margin-top: 170px;
+ margin-left: 363px;
+ align-self: center;
+ z-index: 1;
+}
+  footer {
+    background-color:#F2ECE1;
+  }
 
 }
 
@@ -169,7 +242,9 @@
 @media screen and (min-width: 1920px) {
 
     header {
+        height:150px;
         background-color: #F5EDE4;
+        
     }
 
     #nav2 {
@@ -181,76 +256,157 @@
     }
   
      #bckg-colr {
-        height: 800px;
+       margin-top: 0;
+        height: 1000px;
         margin-left: -130px;
         background-color: #817162;
+        position: relative;
       
     }
+
+    #prod-img-1{
+      height:738px;
+      width: 787px;
+      display: inline-block;
+      position: absolute;
+      align-self: center;
+      margin-left: 80px;
+  }
+
+  #text-1 {
+
+      height:339px;
+      width: 787px;
+      display: inline-block;
+      position: absolute;
+      align-self: center;
+      margin-left: 867px;
+      background-color: #F2ECE1;
+  }
   
-     #text {
-        height: 823px;
-        display: inline-block;
+  #bckg-colr-2 {
+        height: 1000px;
+        background-color: #F5EDE4;
+        margin-top: 200px;
+        position: relative;
     }
+
+    #prod-img-2{
+      margin-top: 200px;
+      height:738px;
+      width: 787px;
+      display: inline-block;
+      position: absolute;
+      align-self: center;
+      margin-left: 867px;
+  }
+
+  #text-2 {
+
+      height:339px;
+      width: 787px;
+      display: inline-block;
+      position: absolute;
+      align-self: center;
+      margin-left: 80px;
+      background-color: #D9C7B7;
+  }
   
-     #image-shape {
-        height: 683px;
-    }
+    #bckg-colr-3 {
+      height: 1000px;
+      background-color: #817162;
+      margin-top: 200px;
+      position: relative;
+  }
   
-     #text {
-        height: 683px;
-    }
-  
-     #heading {
-        height: 343px
-    }
-  
-     #prod-img-1{
-        height:738px;
-        display: inline-block;
-    }
+
+  #prod-img-3{
+   height: 500px;
+   width: 787px;
+   display: inline-block;
+   position: absolute;
+   margin-top: 650px;
+   margin-left: 1067px;
+   z-index: 1;
+}
+
+#text-3 {
+
+   height:600px;
+   width: 787px;
+   display: inline-block;
+   position: absolute;
+   align-self: center;
+   margin-left: 190px;
+   background-color: #FFFFFF;
+}
+
+#text-box {
+   height:1100px;
+   width: 787px;
+   display: inline-block;
+   position: absolute;
+   align-self: center;
+   margin-left: 867px;
+   margin-top: 700px;
+   background-color: #F5EDE4;
+
+}
+
+  #bckg-colr-4 {
+   height: 1100px;
+   margin-left: -170px;
+   background-color: #D9C7B7;
+   margin-top: 400px;
+   position: relative;
+}
+
+#prod-img-4{
+   height: 900px;
+   width: 600px;
+   display: inline-block;
+   position: absolute;
+   margin-top: 420px;
+   margin-left: 60px;
+   align-self: center;
+   z-index: 1;
+}
+#prod-img-5{
+   height: 900px;
+   width: 600px;
+   display: inline-block;
+   position: absolute;
+   margin-top: 420px;
+   margin-left: 1090px;
+   align-self: center;
+   z-index: 1;
+}
+
+   
+    
      
-     #prod-img-2 {
-        height:738px;
-        display: inline-block;
-    }
      
-     #prod-img-3 {
-        height:738px;
-        display: inline-block;
-    }
      
-     #prod-img-4 {
-        height:738px;
-        display: inline-block;
-    }
+   
+ 
   
      #heading-2 {
         height: 343px
-    }
-  
-     #share {
-        height:779px;
     }
   
      #heading-3 {
         height: 198px;
     }
   
-     #email {
-        height: 132px;
-    }
-  
-    #phone {
-     height: 132px;
-    }
-  
-    #sign-up {
-     height: 132px;
-    }
+   
   
     #insta-icon {
      height: 98px;
     } 
+
+    footer {
+      background-color:#F2ECE1;
+    }
 
 }
 
