@@ -1,0 +1,172 @@
+
+/* ---- DESKTOP ---- */
+
+@media screen and (min-width: 1200px) {
+
+    
+    #logo {
+        height: 100px;
+        width: 200px;
+      
+        position: absolute;
+    }
+
+
+
+    
+    
+  
+     #bckg-colr {
+       margin-top: 0;
+        height: 1000px;
+        margin-left: -130px;
+        background-color: #817162;
+        position: relative;
+      
+    }
+
+    #prod-img-1{
+      height:738px;
+      width: 787px;
+      display: inline-block;
+      position: absolute;
+      align-self: center;
+      margin-left: 80px;
+  }
+
+  #text-1 {
+
+      height:339px;
+      width: 787px;
+      display: inline-block;
+      position: absolute;
+      align-self: center;
+      margin-left: 867px;
+      background-color: #F2ECE1;
+  }
+  
+  #bckg-colr-2 {
+        height: 1000px;
+        background-color: #F5EDE4;
+        margin-top: 200px;
+        position: relative;
+    }
+
+    #prod-img-2{
+      margin-top: 200px;
+      height:738px;
+      width: 787px;
+      display: inline-block;
+      position: absolute;
+      align-self: center;
+      margin-left: 867px;
+  }
+
+  #text-2 {
+
+      height:339px;
+      width: 787px;
+      display: inline-block;
+      position: absolute;
+      align-self: center;
+      margin-left: 80px;
+      background-color: #D9C7B7;
+  }
+  
+    #bckg-colr-3 {
+      height: 1000px;
+      background-color: #817162;
+      margin-top: 200px;
+      position: relative;
+  }
+  
+
+  #prod-img-3{
+   height: 500px;
+   width: 787px;
+   display: inline-block;
+   position: absolute;
+   margin-top: 650px;
+   margin-left: 1067px;
+   z-index: 1;
+}
+
+#text-3 {
+
+   height:600px;
+   width: 787px;
+   display: inline-block;
+   position: absolute;
+   align-self: center;
+   margin-left: 190px;
+   background-color: #FFFFFF;
+}
+
+#text-box {
+   height:1100px;
+   width: 787px;
+   display: inline-block;
+   position: absolute;
+   align-self: center;
+   margin-left: 867px;
+   margin-top: 700px;
+   background-color: #F5EDE4;
+
+}
+
+  #bckg-colr-4 {
+   height: 1100px;
+   margin-left: -170px;
+   background-color: #D9C7B7;
+   margin-top: 400px;
+   position: relative;
+}
+
+#prod-img-4{
+   height: 900px;
+   width: 600px;
+   display: inline-block;
+   position: absolute;
+   margin-top: 420px;
+   margin-left: 60px;
+   align-self: center;
+   z-index: 1;
+}
+#prod-img-5{
+   height: 900px;
+   width: 600px;
+   display: inline-block;
+   position: absolute;
+   margin-top: 420px;
+   margin-left: 1090px;
+   align-self: center;
+   z-index: 1;
+}
+
+   
+    
+     
+     
+     
+   
+ 
+  
+     #heading-2 {
+        height: 343px
+    }
+  
+     #heading-3 {
+        height: 198px;
+    }
+  
+   
+  
+    #insta-icon {
+     height: 98px;
+    } 
+
+    footer {
+      background-color:#F2ECE1;
+    }
+
+}

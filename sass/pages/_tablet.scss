@@ -1,0 +1,164 @@
+
+ 
+/* ---- Tablet ---- */
+
+@media screen and (min-width: 768px) {
+
+  #nav {
+    display: flex;
+    height: 80px;
+   
+  }
+
+
+
+
+
+  /* Hide the hamburger menu placeholder for larger screens */
+  #hamburger-menu {
+    display: none;
+  }
+
+#logo {
+    height: 100px;
+    width: 100px;
+    margin-left: -100px;
+    position: absolute;
+    display: block;
+    padding-bottom: 20px;
+}
+
+   #bckg-colr {
+     margin-top: 0;
+      height: 350px;
+     margin-left: -80px;
+      background-color: #817162;
+      position: relative;
+    
+  }
+
+  #prod-img-1{
+    height:246px;
+    width: 262px;
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-left: 80px;
+}
+
+#text-1 {
+
+    height:139px;
+    width: 262px;
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-left: 289px;
+    background-color: #F2ECE1;
+}
+
+#bckg-colr-2 {
+      height: 350px;
+      background-color: #F5EDE4;
+      margin-top: 50px;
+      position: relative;
+  }
+
+  #prod-img-2{
+    margin-top: 200px;
+    height:246px;
+    width: 262px;
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-left: 289px;
+}
+
+#text-2 {
+
+    height:139px;
+    width: 262px;
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-left: 80px;
+    background-color: #D9C7B7;
+}
+
+  #bckg-colr-3 {
+    height: 350px;
+    background-color: #817162;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+#prod-img-3{
+ height: 166px;
+ width: 262px;
+ display: inline-block;
+ position: absolute;
+ margin-top: 216px;
+ margin-left: 451px;
+ z-index: 1;
+}
+
+#text-3 {
+
+ height:200px;
+ width: 262px;
+ display: inline-block;
+ position: absolute;
+ align-self: center;
+ margin-left: 63px;
+ background-color: #FFFFFF;
+}
+
+#text-box {
+ height:366px;
+ width: 262px;
+ display: inline-block;
+ position: absolute;
+ align-self: center;
+ margin-left: 289px;
+ margin-top: 233px;
+ background-color: #F5EDE4;
+
+}
+
+#bckg-colr-4 {
+ height: 366px;
+ width: 380px;
+ margin-left: -80px;
+ background-color: #D9C7B7;
+ margin-top:150px;
+ position: relative;
+}
+
+#prod-img-4{
+ height: 300px;
+ width: 200px;
+ display: inline-block;
+ position: absolute;
+ margin-top: 170px;
+ margin-left: 20px;
+ align-self: center;
+ z-index: 1;
+}
+#prod-img-5{
+ height: 300px;
+ width: 200px;
+ display: inline-block;
+ position: absolute;
+ margin-top: 170px;
+ margin-left: 363px;
+ align-self: center;
+ z-index: 1;
+}
+  footer {
+    background-color:#F2ECE1;
+  }
+
+}
+
+
