@@ -16,15 +16,32 @@
   <body>
    <div class="container">
     <h1 class="hidden">Portfolio</h1>
-
     <header class="grid-con" id="main-header">
-        <h2 class="hidden"> Main Header Content </h2>
-            <div class="box col-span-full col-end-1 m-col-start-1 m-col-end-3" 
-            id="main-logo">Logo</div>
-            <nav class="box col-start-4 col-end-5 m-col-start-6 m-col-end-7 xl-col-start-11 xl-col-end-12">Nav</nav> 
-            <nav id="nav2" class="box xl-col-start-12 xl-col-end-13">Nav2</nav>
-            <nav id="nav3" class="box xl-col-start-13 xl-col-end-14">Nav3</nav>
-    </header>
+        <h2 class="hidden">Main Header Content</h2>
+        <div class="box_nav">
+          <div class="grid-con">
+            <img id="logo" class="col-span-full xl-col-start-1 xl-col-end-1" src="images/jazzydesigns_logo.svg" alt="logo">
+            <ul id="nav" class="col-start-6 col-end-6 m-col-start-4 m-col-end-10 xl-col-start-14 xl-col-end-14">
+              <li><a href="index.html">EXPLORE</a></li>
+              <li><a href="#animation">ABOUT</a></li>
+              <li><a href="#xray">DEMOREEL</a></li>
+              <li><a width="200px" href="#photos">CASE-STUDY</a></li>
+            </ul>
+          
+            <div id="hamburger-menu">
+                <img src="images/burger-mob.svg" alt="burger menu icon" width="50">
+            </div>
+            
+            <div class="dropdown-menu">
+              <a href="#indes.html">HOME</a>
+              <a href="#animation">ANIMATION</a>
+              <a href="#xray">XRAY</a>
+              <a href="#photos">PHOTOS</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
 
     <main>
         <h2 class="hidden"> Main Content </h2>
@@ -75,8 +92,9 @@
 
     </footer>
 
-  
+    <script src="js/burger.js"></script>
     <script src="js/main.js"></script>
+  
    </div>
  </body>
 </html>

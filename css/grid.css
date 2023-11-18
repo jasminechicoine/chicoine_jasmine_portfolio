@@ -150,12 +150,12 @@ img, embed, object, video, picture {
  
  /* ---X-Large Desktop Library Grid Styles--- */
  
- @media screen and (min-width: 1920px) { 
+ @media screen and (min-width: 1200px) { 
  
  
     .grid-con { 
        display: grid; 
-       grid-template-columns: repeat(13, minmax(0, 1fr));
+       grid-template-columns: repeat(14, minmax(0, 1fr));
        grid-column-gap: 30px;
        padding-left: 130px;
        padding-right: 130px;
