@@ -1,3 +1,191 @@
+/* ---- MOBILE ---- */
+#contact-text {
+  font-size: 30px;
+  font-family: "orpheuspro", serif;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 5px 5px 5px rgba(33, 37, 34, 0.486);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  height: 650px;
+}
+
+#contact-form textarea {
+  height: 100px;
+  border: none;
+  margin-bottom: 0px;
+  font-family: "orpheuspro", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 40px;
+  background-color: #EAE1D9;
+  width: 250px;
+  box-shadow: 5px 5px 5px rgba(5, 5, 4, 0.2);
+}
+
+#contact form textarea[name=msg] {
+  padding-left: 0px;
+  background-color: #EAE1D9;
+  padding-top: 20px;
+}
+
+#contact-form input {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  font-family: "orpheuspro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 24px;
+  background-color: #EAE1D9;
+  width: 250px;
+  box-shadow: 5px 5px 5px rgba(5, 5, 4, 0.2);
+}
+
+#contact-form input[type=text] {
+  padding-left: 20px;
+}
+
+#contact-form input[type=submit]:hover {
+  background-color: #cfcfcf;
+  color: #202020;
+}
+
+#contact-form input[type=submit] {
+  width: 250px;
+  font-size: 20px;
+  padding-left: 90px;
+  padding-top: 15px;
+  background-color: #b3b3b3;
+  color: #ffffff;
+}
+
+/* ---- TABLET ---- */
+@media screen and (min-width: 768px) {
+  #contact-text {
+    font-size: 30px;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 5px 5px 5px rgba(33, 37, 34, 0.486);
+  }
+  #contact-form {
+    padding-top: 30px;
+    height: 650px;
+  }
+  #contact-form textarea {
+    height: 100px;
+    border: none;
+    margin-bottom: 0px;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    width: 375px;
+    box-shadow: 5px 5px 5px rgba(5, 5, 4, 0.2);
+  }
+  #contact form textarea[name=msg] {
+    padding-left: 40px;
+    padding-right: 150px;
+    padding-top: 20px;
+  }
+  #contact-form input {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 24px;
+    width: 375px;
+    box-shadow: 5px 5px 5px rgba(5, 5, 4, 0.2);
+  }
+  #contact-form input[type=text] {
+    padding-left: 20px;
+  }
+  #contact-form input[type=submit] {
+    font-size: 30px;
+    width: 375px;
+    padding-left: 135px;
+    padding-top: 5px;
+  }
+}
+/* ---- DESKTOP ---- */
+@media screen and (min-width: 1200px) {
+  #contact-text {
+    font-size: 30px;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 5px 5px 5px rgba(33, 37, 34, 0.486);
+  }
+  #contact-form {
+    padding-top: 30px;
+    height: 650px;
+  }
+  #contact-form textarea {
+    height: 100px;
+    border: none;
+    margin-bottom: 0px;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    width: 375px;
+    box-shadow: 5px 5px 5px rgba(5, 5, 4, 0.2);
+  }
+  #contact form textarea[name=msg] {
+    padding-left: 40px;
+    padding-right: 150px;
+    padding-top: 20px;
+  }
+  #contact-form input {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 24px;
+    width: 375px;
+    box-shadow: 5px 5px 5px rgba(5, 5, 4, 0.2);
+  }
+  #contact-form input[type=text] {
+    padding-left: 20px;
+  }
+  #contact-form input[type=submit] {
+    width: 375px;
+    padding-left: 145px;
+    padding-top: 8px;
+  }
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -72,7 +260,6 @@
   display: none;
 }
 
-/* ---- MOBILE ---- */
 #bckg-colr {
   height: 346px;
   background-color: #817162;
@@ -168,6 +355,21 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+}
+
+/* ---- ABOUT ---- */
+#abt-bckg-colr-1 {
+  height: 346px;
+  background-color: #F5EDE4;
+}
+
+#abt-prod-img-1 {
+  height: 346px;
+}
+
+#abt-text-1 {
+  height: 200px;
+  background-color: #D9C7B7;
 }
 
 /* ---- Tablet ---- */
@@ -330,6 +532,30 @@ nav a:hover {
   nav a:hover {
     text-decoration: underline;
   }
+  /* ---- ABOUT ---- */
+  #abt-bckg-colr-1 {
+    height: 350px;
+    background-color: #F5EDE4;
+    position: relative;
+  }
+  #abt-prod-img-1 {
+    margin-top: 200px;
+    height: 246px;
+    width: 262px;
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-left: 289px;
+  }
+  #abt-text-1 {
+    height: 139px;
+    width: 262px;
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-left: 80px;
+    background-color: #D9C7B7;
+  }
 }
 /* ---- DESKTOP ---- */
 @media screen and (min-width: 1200px) {
@@ -462,7 +688,7 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
+    max-width: 100vw;
     margin: 0 auto;
   }
   .logo-container img {
@@ -482,5 +708,29 @@ nav a:hover {
   }
   nav a:hover {
     text-decoration: underline;
+  }
+  /* ---- ABOUT ---- */
+  #abt-bckg-colr-1 {
+    height: 600px;
+    background-color: #F5EDE4;
+    position: relative;
+  }
+  #abt-prod-img-1 {
+    margin-top: 200px;
+    height: 338px;
+    width: 487px;
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-left: 30%;
+  }
+  #abt-text-1 {
+    height: 339px;
+    width: 487px;
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-left: 10%;
+    background-color: #D9C7B7;
   }
 }/*# sourceMappingURL=main.css.map */
