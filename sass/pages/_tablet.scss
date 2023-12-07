@@ -4,18 +4,55 @@
 
 @media screen and (min-width: 768px) {
 
-  #nav {
-    display: flex;
-    height: 80px;
-    margin-top:45px;
+
+ header {
+    background-color: #F5EDE4;
+    color: rgb(79, 79, 79);
+    padding: 20px 0;
+    max-width: 100vw;
+  }
+ #main-nav {
+  display: none;
+ }
+
+#logo {
+  display: flex;
+  width: 100px;
+  margin-left: -120px;
+  
+}
+
+ #nav-con {
+  display: flex;
+  justify-content:space-between;
+  
+
+ }
+
+#nav2  {
+  display: flex;
+ list-style: none;
+ text-decoration: none;
+ margin-left: 400%;
+ margin-top: 35px;
+
+
+
+ }
+
+
+#nav2 li a {
+  margin-right: 80px;
+  text-decoration: none;
+  color: #817162;
+  font-size: larger;
+  
   }
 
-  #main-nav {
-    display: none;
-  }
-
-
-
+  #nav2 li a:hover {
+    margin-right: 80px;
+    text-decoration: underline;
+    }
 
 
   /* Hide the hamburger menu placeholder for larger screens */
@@ -23,15 +60,6 @@
     display: none;
   }
 
-#logo {
-    height: 100px;
-    width: 100px;
-    margin-left: -150px;
-    position: absolute;
-    display: block;
-    padding-bottom: 10px;
-    margin-top: 15px;
-}
 
    #bckg-colr {
      margin-top: 0;
@@ -181,21 +209,21 @@ footer {
   height: auto;
 }
 
-nav ul {
+footer nav ul {
   list-style: none;
   display: flex;
 }
 
-nav li {
+footer nav li {
   margin-right: 20px;
 }
 
-nav a {
+footer nav a {
   text-decoration: none;
   color: rgb(79, 79, 79);
 }
 
-nav a:hover {
+footer nav a:hover {
   text-decoration: underline;
 }
 

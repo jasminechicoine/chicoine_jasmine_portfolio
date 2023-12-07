@@ -3,15 +3,16 @@
 
 @media screen and (min-width: 1200px) {
 
-    
-    #logo {
-        height: 100px;
-        width: 200px;
+
+    #nav2  {
+        display: flex;
+       list-style: none;
+       text-decoration: none;
+       margin-left: 1300%;
       
-        position: absolute;
-    }
-
-
+      
+      
+       }
 
     
     
@@ -164,7 +165,7 @@
     footer {
       background-color: #F5EDE4;
       color: rgb(79, 79, 79);
-      padding: 20px 0;
+      padding: 20px ;
 
       
   }
@@ -182,23 +183,7 @@
       height: auto;
   }
   
-  nav ul {
-      list-style: none;
-      display: flex;
-  }
-  
-  nav li {
-      margin-right: 20px;
-  }
-  
-  nav a {
-      text-decoration: none;
-      color: rgb(79, 79, 79);
-  }
-  
-  nav a:hover {
-      text-decoration: underline;
-  }
+ 
 
 
 
