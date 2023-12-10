@@ -188,6 +188,115 @@
     padding-top: 8px;
   }
 }
+#demo {
+  background-color: #817162;
+  border: 12px solid #fcfbed;
+}
+
+#player-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  justify-items: center;
+  align-items: center;
+}
+
+.video-controls {
+  position: absolute;
+  padding: 5px;
+  bottom: 0;
+  display: flex;
+  transition: all 0.4s ease;
+  justify-items: center;
+  align-items: center;
+}
+
+.video-controls.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+.fa, .fa-solid {
+  color: #fff;
+  font-size: 20px;
+  margin-left: -20px;
+}
+
+.fa-volume-up {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+/*********** Baseline, reset styles ***********/
+input[type=range] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 10rem;
+  padding-right: 20px;
+}
+
+/* Removes default focus */
+input[type=range]:focus {
+  outline: none;
+}
+
+/******** Chrome, Safari, Opera and Edge Chromium styles ********/
+/* slider track */
+input[type=range]::-webkit-slider-runnable-track {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+/* slider thumb */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -4px; /* Centers thumb on the track */
+  background-color: #808080;
+  border-radius: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+input[type=range]:focus::-webkit-slider-thumb {
+  outline: 3px solid #808080;
+  outline-offset: 0.125rem;
+}
+
+/*********** Firefox styles ***********/
+/* slider track */
+input[type=range]::-moz-range-track {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+/* slider thumb */
+input[type=range]::-moz-range-thumb {
+  background-color: #808080;
+  border: none; /*Removes extra border that FF applies*/
+  border-radius: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+input[type=range]:focus::-moz-range-thumb {
+  outline: 3px solid #808080;
+  outline-offset: 0.125rem;
+}
+
 .header {
   display: flex;
   justify-content: space-between;

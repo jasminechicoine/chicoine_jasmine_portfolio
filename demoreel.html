@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- in mobile set initial zoom level of page to 100%, set site size to equal 
+        device width not a larger canvas that is shrunk down-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+    <title>Portfolio</title>
+    <!-- Link to reset or normalize before main.css
+    only choose one -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+  <body>
+   <div class="container">
+    <h1 class="hidden">Portfolio</h1>
+    <header class="grid-con" id="main-header">
+      <nav id="main-nav">
+        <h2 class="hidden">Main Navigation</h2>
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger">
+          <img src="images/burger-mob.svg" alt="hamburger menu icon">
+      </label>
+          <div id="burger-con">
+            <ul id="nav" class="col-start-6 col-end-6 ">
+              <li><a href="index.html">EXPLORE</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="#">DEMOREEL</a></li>
+            </ul>
+           </div>
+        </nav>
+          <div id="nav-con">
+           <ul id="nav2" >
+            <li ><a href="index.html">EXPLORE</a></li>
+            <li ><a href="about.html">ABOUT</a></li>
+            <li ><a href="#">DEMOREEL</a></li>
+          </ul>
+          </div>
+        <div id="logo" >
+          <a href="index.html"><img class="col-span-full xl-col-start-1 xl-col-end-1" src="images/jazzydesigns_logo.svg" alt="logo"></a>
+        </div>
+      </header>
+
+
+    <main>
+        <div id="demo" class="grid-con">
+      <section class="col-span-full" id="player-container">
+        <video controls poster="images/thumbnail.jpeg">
+          <source src="images/demo_reel.mp4" type="video/mp4" />
+          <p>
+            You're using a very old browser, that doesn;t support video
+            playback.
+          </p>
+        </video>
+        <div class="video-controls hidden" id="video-controls">
+          <button id="play-button">
+            <i class="fa fa-play-circle-o"></i>
+          </button>
+          <button id="pause-button">
+            <i class="fa fa-pause-circle-o"></i>
+          </button>
+          <button id="stop-button">
+            <i class="fa fa-stop-circle-o"></i>
+          </button>
+          <i class="fa fa-volume-up"></i>
+          <input
+            type="range"
+            id="change-vol"
+            step="0.05"
+            min="0"
+            max="1"
+            value="1"
+          />
+          <button id="full-screen">
+            <i class="fa fa-arrows-alt"></i>
+          </button>
+        </div>
+      </section>
+    </div>
+
+    </main>
+
+    <footer>
+      <div class="footer-container">
+          <div class="logo-container">
+              <img src="images/jazzydesigns_logo.svg" alt="Logo">
+          </div>
+          <nav>
+              <ul>
+                  <li><a href="#">EXPLORE</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">DEMOREEL</a></li>
+              </ul>
+          </nav>
+      </div>
+  </footer>
+    <script src="js/video.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/main.js"></script>
+  
+   </div>
+ </body>
+</html>
