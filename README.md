@@ -7,7 +7,9 @@ Welcome to my Portfolio! This is a site built using design & motion tools as wel
 ## Inspiration 
 
 https://www.oliviatruong.design/
+</br>
 https://www.jeremy-stokes.com/
+</br>
 https://www.made-studio.es/proyectos
 
 
