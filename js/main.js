@@ -1,17 +1,14 @@
 (() => {
 
-    gsap.registerPlugin(ScrollToPlugin);
+const tl = gsap.timeline();
 
-    const navLinks = document.querySelectorAll("#main-header nav ul li a");
+ gsap.fromTo("#prod-img-1", { x: "-100%" }, { x: "0%", duration: 0.7 });
+ gsap.fromTo("#text-1", { x: "100%" }, { x: "0%", duration: 0.7, delay: 0 });
 
-    function scrollLink(e) {
-    
-       e.preventDefault();
-       let selectedLink = e.currentTarget.hash;
-       gsap.to(window, {duration: 1, scrollTo:{y:`${selectedLink}`, offsetY: 120}})
-    }
+ gsap.fromTo("#prod-img-2", { x: "100%" }, { x: "0%", duration: 0.7 });
+ gsap.fromTo("#text-2", { x: "-100%" }, { x: "0%", duration: 0.7, delay: 0 });
 
-    navLinks.forEach((navLink)=>{
-       navLink.addEventListener("click", scrollLink);
-  })  
+ gsap.fromTo("#prod-img-3", { x: "-100%" }, { x: "0%", duration: 0.7 });
+ gsap.fromTo("#text-3", { x: "100%" }, { x: "0%", duration: 0.7, delay: 0 });
+
 })();

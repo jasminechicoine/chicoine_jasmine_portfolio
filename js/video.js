@@ -1,4 +1,4 @@
-// variables
+
 
 const playerCon = document.querySelector("#player-container");
 const player = document.querySelector("video");
@@ -9,9 +9,7 @@ const stopButton = document.querySelector("#stop-button");
 const volumeSlider = document.querySelector("#change-vol");
 const fullScreen = document.querySelector("#full-screen");
 
-// functions
 
-//if JS is loaded, super. Remove the default controls
 player.controls = false;
 videoControls.classList.remove("hidden");
 
@@ -33,8 +31,7 @@ function changeVolume() {
   console.log(volumeSlider.value);
 }
 
-// toggles full screen mode,depending on wether
-//the user is in full screen or not
+
 function toggleFullScreen() {
   if (document.fullscreenElement) {
     document.exitFullscreen();
@@ -58,7 +55,6 @@ function showControls() {
   videoControls.classList.remove("hide");
 }
 
-// Event Listeners
 
 playButton.addEventListener("click", playVideo);
 pauseButton.addEventListener("click", pauseVideo);
