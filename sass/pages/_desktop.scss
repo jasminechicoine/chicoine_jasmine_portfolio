@@ -239,4 +239,116 @@
  margin-top: 100px;
 
 }
+
+
+
+/*---- CASE STUDY -----*/
+
+#case-sec-2 {
+  margin-top: -210px;
+}
+
+  
+#case-bckg-colr {
+       margin-top: 0;
+        height: 700px;
+        width:824px ;
+        margin-left: -130px;
+        background-color: #817162;
+        position: relative;
+        z-index: -1;
+      
+    }
+    #case-prod-img {
+      
+      margin-top: -530px;
+    }
+ 
+    #case-prod-img img {
+      margin-top: 0px;
+      display: inline-block;
+      align-self: center;    
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+   
+  }
+
+  #case-text {
+      font-size: 14px;
+      height:213px;
+      width: 373px;
+      display: inline-block;
+      z-index: 1;
+      text-align: left;
+      margin-top: -450px;
+      background-color: #F2ECE1;
+  }
+
+
+  #case-abt-prod-img-1{
+  margin-top: 100px;
+  height:238px;
+  display: inline-block;
+  z-index: 1;
+  width: 300px;
+  margin-left: -30px;
+ 
+
+}
+
+#case-abt-text-1 {
+  margin-top:-300px ;
+  margin-left: -50px;
+  height:339px;
+  display: inline-block;
+  align-self: center;
+
+}
+
+
+#case-bckg-colr-2 {
+        height: 700px;
+        background-color: #F5EDE4;
+        margin-top: 200px;
+        position: relative;
+        margin-left: -130px;
+        width: 1200px;
+    }
+
+  #case-prod-img-2{
+    margin-top: -620px;
+    background-color: transparent;
+  }
+
+  #case-prod-img-2 img{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border: 15px solid #fcfbed;
+  }
+
+
+
+  #case-text-2 {
+      margin-top: -100px;
+      height:339px;
+      width: 485px;
+      display: inline-block;
+      align-self: center;
+      background-color: #D9C7B7;
+      margin-top: -700px;
+      font-size: 14px;
+      text-align: left;
+      letter-spacing: 5px;
+      padding-left: 50px;
+      z-index: -1;
+  }
+
+  #case-text-2 h2 {
+    padding-bottom: 50px;
+  }
+
+  #case-text-2 p {
+    padding-bottom: 20px;
+
+  }
+  
 }

@@ -56,7 +56,7 @@
     }
 
 
-  /* Hide the hamburger menu placeholder for larger screens */
+
   #hamburger-menu {
     display: none;
   }
@@ -91,7 +91,7 @@
     margin-top: -300px ;
  
     display: inline-block;
-    border: 12px solid #fcfbed; /* Adjust the values based on your preference */
+    border: 12px solid #fcfbed;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
  
 }
@@ -339,9 +339,122 @@ display: none;
 
 #form-msg {
  margin-top: 200px;
+}
+
+
+
+
+/*----- CASE STUDY ------*/
+
+
+
+#case-sec-1 {
+    background-color:transparent;
+    padding-bottom: 0px;
+  }
+
+
+  #case-bckg-colr {
+
+     margin-top: 0;
+      height: 550px;
+      width: 100vw;
+     margin-left: -80px;
+      background-color: #817162;
+      position: relative;
+      display: block;
+      z-index: -1;
+    
+  }
+
+  #case-prod-img {
+   
+    margin-top: -190px;
+  }
+
+  #case-prod-img img {
+    z-index: 1;
+    margin-top: -300px ;
+ 
+    display: inline-block;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+ 
+}
+#case-text {
+  font-size: 8px;
+    height:169px;
+    width: 232px;
+    display: inline-block;
+    margin-top: -380px;
+    z-index: 1;
+    background-color: #F2ECE1;
+    font-family: Avenir light;
+    letter-spacing: 3px;
+    text-align: left;
+}
+
+
+
+#case-text-1 {
+  margin-top: 80px;
+  margin-bottom: 150px;
+  height:239px;
+  display: inline-block;
+  align-self: center;
+}
+
+#case-sec-2 {
+  background-color: transparent;
+  margin-top: -99px;
+  padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+#case-bckg-colr-2 {
+      height: 550px;
+      background-color: #F5EDE4;
+      margin-top: 50px;
+      position: relative;
+      width: 100vw;
+      z-index: -1;
+      margin-left: -80px;
+      display: block;
+  }
+
+  #case-prod-img-2{
+    margin-top: -465px;
+    background-color: transparent;
+ }
+
+ #case-prod-img-2 img{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  border: 15px solid #fcfbed;
 
 }
 
+
+
+#case-text-2 {
+  font-size: 10px;
+  height:239px;
+  display: inline-block;
+  align-self: center;
+  background-color: #D9C7B7;
+  letter-spacing: 3px;
+  padding-left: 30px;
+  text-align: left;
+  margin-top: -580px;
 }
 
+#case-text-2 h2 {
+  padding-bottom: 20px;
+}
+
+#case-text-2 p {
+  padding-bottom: 10px;
+
+}
+}
 

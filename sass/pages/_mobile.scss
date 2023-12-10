@@ -147,6 +147,11 @@ button:hover {
   background-color: #2e2e2e;
   color: #ffffff;
 }
+
+button a {
+  text-decoration: none;
+  color: #ffffff;
+}
   
   #bckg-colr {
 display: none;
@@ -315,5 +320,82 @@ background-color: #F5EDE4;
     margin-top: 60px;
 }
 
+/*--- CASE STUDY ---*/
+
+  #case-sec-1 {
+    background-color:#817162;
+    padding-bottom: 40px;
+  }
+  #case-sec-2 {
+    background-color: #D9C7B7;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #case-sec-3 {
+        background-color:#817162;
+        padding-top: 40px;
+        padding-bottom: 40px;
+  }
+
+  #case-bckg-colr {
+display: none;
+   
+  }
+
+    #case-prod-img {
+    margin-top: 40px;
+    
+     
+  }
+ 
+#case-text {
+    height: 240px;
+    background-color: #F2ECE1;
+ 
+    
+  }
+  #case-text h2 {
+    padding-bottom: 10px;
+  }
+
+  #case-text p {
+    padding-bottom: 5px;
+
+  }
 
 
+ #case-prod-img-1 {
+ 
+  display: none;
+}
+
+#case-text-1 {
+
+height: 300px;
+background-color: #F5EDE4;
+}
+ 
+#case-img-2 {
+     border: 12px solid #fcfbed;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+ 
+  #case-bckg-colr-2 {
+    display: none;
+  }
+
+  #case-text-2 {
+  height: 200px;
+  background-color: #D9C7B7;
+  }
+  
+  #case-text-2 h2 {
+    padding-bottom: 10px;
+  }
+
+  #case-text-2 p {
+    padding-bottom: 5px;
+
+  }
+ 
