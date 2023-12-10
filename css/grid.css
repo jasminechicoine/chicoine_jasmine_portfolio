@@ -19,6 +19,7 @@ img, embed, object, video, picture {
  .container {
    max-width: 1200px;
    margin: 0 auto;
+   justify-content: center;
  } 
  
  /* ---Mini CSS reset--- */
@@ -37,7 +38,7 @@ img, embed, object, video, picture {
  }
  
  .box {
-    background-color: rgb(188, 191, 188);
+   background-color: #fff9ee;
     font-family: Avenir;
     color: rgb(41, 41, 40);
    
@@ -99,7 +100,7 @@ img, embed, object, video, picture {
     .grid-con { 
        display: grid; 
        grid-template-columns: repeat(8, minmax(0, 1fr));
-       grid-column-gap: 30px;
+       grid-column-gap: 0px;
        padding-left: 80px;
        padding-right: 80px;
     }
@@ -163,7 +164,7 @@ img, embed, object, video, picture {
     .grid-con { 
        display: grid; 
        grid-template-columns: repeat(14, minmax(0, 1fr));
-       grid-column-gap: 30px;
+       grid-column-gap: 0px;
        padding-left: 130px;
        padding-right: 130px;
     }
