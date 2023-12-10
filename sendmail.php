@@ -1,8 +1,5 @@
 <?php
    
-$servername = "your_database_servername";
-$dbname = "portfolio";
-
 
     $connect = new mysqli('localhost', 'root', 'root', 'portfolio');
 
@@ -21,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO contacts (fullName, contactInfo, msg) VALUES ('$fullName', '$contactInfo', '$msg')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
+        echo " successful ";
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
