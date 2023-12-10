@@ -562,8 +562,12 @@ footer nav a:hover {
 }
 
 #abt-text-1 {
-  height: 200px;
+  height: 250px;
   background-color: #F5EDE4;
+}
+
+#abt-text-1 p {
+  padding-top: 20px;
 }
 
 #form-msg {
@@ -902,12 +906,16 @@ footer nav a:hover {
     display: none;
   }
   #abt-text-1 {
-    height: 139px;
+    height: 239px;
     display: inline-block;
     align-self: center;
   }
+  #abt-text-1 p {
+    padding-top: 30px;
+    line-height: 30px;
+  }
   #form-msg {
-    margin-top: 200px;
+    margin-top: 100px;
   }
   /*----- CASE STUDY ------*/
   #case-sec-1 {
@@ -1162,9 +1170,13 @@ footer nav a:hover {
     height: 339px;
     display: inline-block;
     align-self: center;
+    padding-top: 50px;
   }
   #abt-text-1 p {
     padding-right: 30px;
+    padding-top: 30px;
+    line-height: 40px;
+    font-size: 20px;
   }
   #form-msg {
     margin-top: 100px;
