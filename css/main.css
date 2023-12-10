@@ -15,7 +15,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 0px;
   height: 650px;
 }
 
@@ -69,10 +69,12 @@
 #contact-form input[type=submit] {
   width: 250px;
   font-size: 20px;
-  padding-left: 90px;
   padding-top: 15px;
   background-color: #b3b3b3;
   color: #ffffff;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 /* ---- TABLET ---- */
@@ -87,6 +89,7 @@
   #contact-form {
     padding-top: 30px;
     height: 650px;
+    margin-top: -80px;
   }
   #contact-form textarea {
     height: 100px;
@@ -127,7 +130,6 @@
   #contact-form input[type=submit] {
     font-size: 30px;
     width: 375px;
-    padding-left: 135px;
     padding-top: 5px;
   }
 }
@@ -143,6 +145,7 @@
   #contact-form {
     padding-top: 30px;
     height: 650px;
+    margin-top: -70px;
   }
   #contact-form textarea {
     height: 100px;
@@ -182,7 +185,6 @@
   }
   #contact-form input[type=submit] {
     width: 375px;
-    padding-left: 145px;
     padding-top: 8px;
   }
 }
@@ -449,18 +451,24 @@ footer nav a:hover {
 }
 
 /* ---- ABOUT ---- */
-#abt-bckg-colr-1 {
-  height: 346px;
-  background-color: #F5EDE4;
-}
-
 #abt-prod-img-1 {
-  height: 346px;
+  display: none;
 }
 
 #abt-text-1 {
   height: 200px;
-  background-color: #D9C7B7;
+  background-color: #F5EDE4;
+}
+
+#form-msg {
+  font-size: 30px;
+  font-family: "orpheuspro", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #747474;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
 }
 
 /* ---- Tablet ---- */
@@ -559,6 +567,7 @@ footer nav a:hover {
   }
   #sec-2 {
     background-color: transparent;
+    margin-top: -99px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
@@ -573,7 +582,7 @@ footer nav a:hover {
     display: block;
   }
   #prod-img-2 {
-    margin-top: -495px;
+    margin-top: -465px;
     background-color: transparent;
   }
   #prod-img-2 img {
@@ -602,6 +611,7 @@ footer nav a:hover {
     background-color: transparent;
     padding-top: 0px;
     padding-bottom: 0px;
+    margin-top: -99px;
   }
   #bckg-colr-3 {
     height: 550px;
@@ -615,7 +625,7 @@ footer nav a:hover {
   }
   #prod-img-3 {
     background-color: transparent;
-    margin-top: -430px;
+    margin-top: -400px;
   }
   #prod-img-3 img {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -713,32 +723,26 @@ footer nav a:hover {
     text-decoration: underline;
   }
   /* ---- ABOUT ---- */
-  #abt-bckg-colr-1 {
-    height: 350px;
-    background-color: #F5EDE4;
-    position: relative;
-  }
   #abt-prod-img-1 {
-    margin-top: 200px;
-    height: 246px;
-    width: 262px;
-    display: inline-block;
-    position: absolute;
-    align-self: center;
-    margin-left: 289px;
+    display: none;
   }
   #abt-text-1 {
     height: 139px;
-    width: 262px;
     display: inline-block;
-    position: absolute;
     align-self: center;
-    margin-left: 80px;
-    background-color: #D9C7B7;
+  }
+  #form-msg {
+    margin-top: 200px;
   }
 }
 /* ---- DESKTOP ---- */
 @media screen and (min-width: 1200px) {
+  #sec-2 {
+    margin-top: -210px;
+  }
+  #sec-3 {
+    margin-top: -210px;
+  }
   #nav2 {
     display: flex;
     list-style: none;
@@ -780,6 +784,7 @@ footer nav a:hover {
     margin-top: 200px;
     position: relative;
     margin-left: -130px;
+    width: 1200px;
   }
   #prod-img-2 {
     margin-top: -620px;
@@ -815,7 +820,7 @@ footer nav a:hover {
     background-color: #817162;
     margin-top: 200px;
     position: relative;
-    width: 100vw;
+    width: 1200px;
     margin-left: -130px;
   }
   #prod-img-3 {
@@ -883,27 +888,25 @@ footer nav a:hover {
     height: auto;
   }
   /* ---- ABOUT ---- */
-  #abt-bckg-colr-1 {
-    height: 600px;
-    background-color: #F5EDE4;
-    position: relative;
-  }
   #abt-prod-img-1 {
-    margin-top: 200px;
-    height: 338px;
-    width: 487px;
+    margin-top: 100px;
+    height: 238px;
     display: inline-block;
-    position: absolute;
-    align-self: center;
-    margin-left: 30%;
+    z-index: 1;
+    width: 300px;
+    margin-left: -30px;
   }
   #abt-text-1 {
+    margin-top: -300px;
+    margin-left: -50px;
     height: 339px;
-    width: 487px;
     display: inline-block;
-    position: absolute;
     align-self: center;
-    margin-left: 10%;
-    background-color: #D9C7B7;
+  }
+  #abt-text-1 p {
+    padding-right: 30px;
+  }
+  #form-msg {
+    margin-top: 100px;
   }
 }/*# sourceMappingURL=main.css.map */

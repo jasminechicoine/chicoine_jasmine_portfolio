@@ -291,19 +291,27 @@ footer nav a:hover {
   /* ---- ABOUT ---- */
 
 
-  #abt-bckg-colr-1 {
-    height: 346px;
-    background-color: #F5EDE4;
- }
+
 
  #abt-prod-img-1 {
  
-  height: 346px;
+  display: none;
 }
 
 #abt-text-1 {
 height: 200px;
-background-color: #D9C7B7;
+background-color: #F5EDE4;
+}
+
+#form-msg {
+  font-size: 30px;
+	font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #747474;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
 }
 
 
