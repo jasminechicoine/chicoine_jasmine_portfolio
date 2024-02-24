@@ -289,6 +289,101 @@ input[type=range]:focus::-moz-range-thumb {
   outline-offset: 0.125rem;
 }
 
+.hero {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: hidden;
+  height: 320px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.hero:after {
+  background-color: rgba(156, 125, 91, 0.5);
+  bottom: 0;
+  left: -2000%;
+  position: absolute;
+  right: -2000%;
+  top: 0;
+  z-index: 1;
+}
+
+#hero-img {
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -30px;
+  opacity: 50%;
+}
+
+.hero-container {
+  box-sizing: border-box;
+  height: auto;
+  padding: 30px 50px;
+  position: relative;
+  z-index: 2;
+}
+.hero-container p {
+  color: #64584c;
+  font-size: 13px;
+  font-weight: lighter;
+  letter-spacing: 6px;
+  opacity: 0.8;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 45px;
+  padding-bottom: -30px;
+  width: 100vw;
+}
+
+#hero-p2 {
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+.hero-title {
+  color: #817162;
+  font-family: "abril-fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  margin: 5px 0;
+  text-align: left;
+  opacity: 100%;
+  padding-top: 10px;
+  margin-bottom: -40px;
+  font-size: 40px;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-12px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.animate {
+  animation-duration: 0.75s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.2, 0.3, 0.25, 0.9);
+}
+
+.delay-400 {
+  animation-delay: 0.4s;
+}
+
+.delay-600 {
+  animation-delay: 0.6s;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -421,6 +516,7 @@ button {
   outline: none;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
 }
 
 button:hover {
@@ -429,8 +525,11 @@ button:hover {
 }
 
 button a {
+  display: block;
+  width: 100%;
+  height: 100%;
   text-decoration: none;
-  color: #ffffff;
+  color: inherit;
 }
 
 #bckg-colr {
@@ -657,6 +756,92 @@ footer nav a:hover {
 
 /* ---- Tablet ---- */
 @media screen and (min-width: 768px) {
+  .hero {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: hidden;
+    height: 470px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  .hero:after {
+    background-color: rgba(156, 125, 91, 0.5);
+    bottom: 0;
+    left: -2000%;
+    position: absolute;
+    right: -2000%;
+    top: 0;
+    z-index: 1;
+  }
+  #hero-img {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -30px;
+    opacity: 50%;
+  }
+  .hero-container {
+    box-sizing: border-box;
+    height: auto;
+    padding: 30px 50px;
+    position: relative;
+    z-index: 2;
+  }
+  .hero-container p {
+    color: #64584c;
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 55px;
+    padding-bottom: -30px;
+    width: 100vw;
+  }
+  #hero-p2 {
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+  .hero-title {
+    color: #817162;
+    font-family: "abril-fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    margin: 5px 0;
+    text-align: left;
+    opacity: 100%;
+    padding-top: 20px;
+    margin-bottom: -40px;
+    font-size: 80px;
+  }
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translate3d(-12px, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .fadeInLeft {
+    animation-name: fadeInLeft;
+  }
+  .animate {
+    animation-duration: 0.75s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.2, 0.3, 0.25, 0.9);
+  }
+  .delay-400 {
+    animation-delay: 0.4s;
+  }
+  .delay-600 {
+    animation-delay: 0.6s;
+  }
   header {
     background-color: #F5EDE4;
     color: rgb(79, 79, 79);
@@ -808,7 +993,7 @@ footer nav a:hover {
   }
   #prod-img-3 {
     background-color: transparent;
-    margin-top: -400px;
+    margin-top: -382px;
   }
   #prod-img-3 img {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -1012,6 +1197,90 @@ footer nav a:hover {
 }
 /* ---- DESKTOP ---- */
 @media screen and (min-width: 1200px) {
+  .hero {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: hidden;
+    height: 728px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  .hero:after {
+    background-color: rgba(156, 125, 91, 0.5);
+    bottom: 0;
+    left: -2000%;
+    position: absolute;
+    right: -2000%;
+    top: 0;
+    z-index: 1;
+  }
+  #hero-img {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -30px;
+    opacity: 45%;
+  }
+  .hero-container {
+    box-sizing: border-box;
+    height: auto;
+    padding: 30px 50px;
+    position: relative;
+    z-index: 2;
+  }
+  .hero-container p {
+    color: #494038;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 55px;
+    padding-bottom: -30px;
+  }
+  #hero-p2 {
+    margin-top: 300px;
+    margin-left: 300px;
+  }
+  .hero-title {
+    color: #817162;
+    font-family: "abril-fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    margin: 5px 0;
+    text-align: left;
+    opacity: 100%;
+    padding-top: 20px;
+    margin-bottom: -40px;
+  }
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translate3d(-12px, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .fadeInLeft {
+    animation-name: fadeInLeft;
+  }
+  .animate {
+    animation-duration: 0.75s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.2, 0.3, 0.25, 0.9);
+  }
+  .delay-400 {
+    animation-delay: 0.4s;
+  }
+  .delay-600 {
+    animation-delay: 0.6s;
+  }
   #sec-2 {
     margin-top: -210px;
   }
@@ -1100,7 +1369,7 @@ footer nav a:hover {
   }
   #prod-img-3 {
     z-index: 1;
-    margin-top: -520px;
+    margin-top: -483px;
   }
   #text-3 {
     margin-top: -480px;
@@ -1195,7 +1464,7 @@ footer nav a:hover {
   #case-bckg-colr {
     margin-top: 0;
     height: 700px;
-    width: 824px;
+    width: 1200px;
     margin-left: -130px;
     background-color: #817162;
     position: relative;
