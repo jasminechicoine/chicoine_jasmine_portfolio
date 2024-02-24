@@ -1,6 +1,6 @@
-# PORTFOLIO!
+# Welcome to my super slay and aesthetic porfolio <3
 
-Welcome to my Portfolio! This is a site built using design & motion tools as well as HTML, CSS, and Javascript. 
+Welcome to my Portfolio! This is a website I built from scratch to show my projects. 
 
 ~ Enjoy!
 
