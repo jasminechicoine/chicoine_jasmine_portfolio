@@ -346,11 +346,13 @@ display: none;
   #prod-img-3 {
      border: 12px solid #fcfbed;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     margin-left: 10px;
     
   }
   
   #text-3 {
     height: 200px;
+    margin-left: -20px;
    
 
  }
@@ -499,7 +501,7 @@ height: 300px;
 background-color: #F5EDE4;
 }
 
-#github {
+.github {
   margin-top: 20px;
 
 }
@@ -526,4 +528,11 @@ background-color: #F5EDE4;
     padding-bottom: 5px;
 
   }
+
+   
  
+
+
+
+
+  

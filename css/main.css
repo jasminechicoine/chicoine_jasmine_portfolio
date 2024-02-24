@@ -594,10 +594,12 @@ button a {
 #prod-img-3 {
   border: 12px solid #fcfbed;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 10px;
 }
 
 #text-3 {
   height: 200px;
+  margin-left: -20px;
 }
 
 #bckg-colr-3 {
@@ -728,7 +730,7 @@ footer nav a:hover {
   background-color: #F5EDE4;
 }
 
-#github {
+.github {
   margin-top: 20px;
 }
 
@@ -950,7 +952,7 @@ footer nav a:hover {
     display: block;
   }
   #prod-img-2 {
-    margin-top: -465px;
+    margin-top: -430px;
     background-color: transparent;
   }
   #prod-img-2 img {
@@ -960,14 +962,14 @@ footer nav a:hover {
   }
   #text-2 {
     font-size: 10px;
-    height: 239px;
+    height: 249px;
     display: inline-block;
     align-self: center;
     background-color: #D9C7B7;
     letter-spacing: 3px;
-    padding-left: 30px;
+    padding-left: 20px;
     text-align: left;
-    margin-top: -580px;
+    margin-top: -600px;
   }
   #text-2 h2 {
     padding-bottom: 20px;
@@ -1007,6 +1009,7 @@ footer nav a:hover {
     background-color: #FFFFFF;
     text-align: left;
     letter-spacing: 3px;
+    margin-left: 8px;
   }
   #text-3 h2 {
     padding-top: 10px;
@@ -1149,7 +1152,7 @@ footer nav a:hover {
     display: inline-block;
     align-self: center;
   }
-  #github {
+  .github {
     margin-top: 25px;
   }
   #case-sec-2 {
@@ -1313,7 +1316,7 @@ footer nav a:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
   #text-1 {
-    font-size: 14px;
+    font-size: 10px;
     height: 213px;
     width: 373px;
     display: inline-block;
@@ -1331,22 +1334,38 @@ footer nav a:hover {
     width: 1200px;
   }
   #prod-img-2 {
-    margin-top: -620px;
+    margin-top: -520px;
     background-color: transparent;
+    margin-left: 66px;
   }
   #prod-img-2 img {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     z-index: 1;
     border: 15px solid #fcfbed;
   }
-  #text-2 {
-    margin-top: -100px;
+  button {
+    width: 120px;
+    background-color: #817162;
+    color: #ffffff;
+    padding: 8px 30px;
+    border: none;
+    cursor: pointer;
+    font-family: Avenir light;
+    letter-spacing: 1px;
+    outline: none;
+    text-decoration: none;
+    font-size: 7px;
+  }
+  button:hover {
+    background-color: #2e2e2e;
+    color: #ffffff;
+  }
+  s #text-2 {
     height: 339px;
     width: 485px;
     display: inline-block;
     align-self: center;
     background-color: #D9C7B7;
-    margin-top: -700px;
     font-size: 14px;
     text-align: left;
     letter-spacing: 5px;
@@ -1354,10 +1373,10 @@ footer nav a:hover {
     z-index: -1;
   }
   #text-2 h2 {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
   #text-2 p {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
   #bckg-colr-3 {
     height: 700px;
@@ -1504,7 +1523,7 @@ footer nav a:hover {
     display: inline-block;
     align-self: center;
   }
-  #github {
+  .github {
     margin-top: 30px;
   }
   #case-bckg-colr-2 {

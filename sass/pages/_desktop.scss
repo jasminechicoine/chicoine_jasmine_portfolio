@@ -162,7 +162,7 @@
   }
 
   #text-1 {
-      font-size: 14px;
+      font-size: 10px;
       height:213px;
       width: 373px;
       display: inline-block;
@@ -170,6 +170,7 @@
       text-align: left;
       margin-top: -450px;
       background-color: #F2ECE1;
+     
   }
   
   #bckg-colr-2 {
@@ -182,8 +183,9 @@
     }
 
   #prod-img-2{
-    margin-top: -620px;
+    margin-top: -520px;
     background-color: transparent;
+    margin-left:66px;
   }
 
   #prod-img-2 img{
@@ -192,29 +194,49 @@
     border: 15px solid #fcfbed;
   }
 
+  button {
+    width: 120px;
+    background-color: #817162;
+    color: #ffffff;
+    padding: 8px 30px;
+    border: none;
+    cursor: pointer;
+    font-family: Avenir light;
+    letter-spacing: 1px;
+    outline: none;
+    text-decoration: none;
+    font-size: 7px;
+    
+}
 
 
+button:hover {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}s
   #text-2 {
-      margin-top: -100px;
+    
       height:339px;
       width: 485px;
       display: inline-block;
       align-self: center;
       background-color: #D9C7B7;
-      margin-top: -700px;
+  
       font-size: 14px;
       text-align: left;
       letter-spacing: 5px;
       padding-left: 50px;
       z-index: -1;
+      
+
   }
 
   #text-2 h2 {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 
   #text-2 p {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 
   }
   
@@ -421,7 +443,7 @@
 
 }
 
-#github {
+.github {
   margin-top: 30px;
 
 }
@@ -472,5 +494,16 @@
     padding-bottom: 20px;
 
   }
+
+
+
+
+
+
+
+
+
+  
+
   
 }
