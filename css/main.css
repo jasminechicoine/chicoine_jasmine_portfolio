@@ -853,11 +853,6 @@ footer nav a:hover {
   #main-nav {
     display: none;
   }
-  #logo {
-    display: flex;
-    width: 100px;
-    margin-left: -120px;
-  }
   #nav-con {
     display: flex;
     justify-content: space-between;
@@ -1562,5 +1557,10 @@ footer nav a:hover {
   }
   #case-text-2 p {
     padding-bottom: 20px;
+  }
+  #logo {
+    display: block;
+    width: 160px;
+    margin-left: -100px;
   }
 }/*# sourceMappingURL=main.css.map */
