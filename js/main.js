@@ -41,5 +41,13 @@
         start: "top center",
         end: "center center",
         scrub: true
-    }});
+    }
+    });
+    
+    gsap.from(".logo-container img", {
+  x: "-100%", // Slide in from the left
+  rotation: "360", // Spin effect
+  duration: 2, // Animation duration
+  ease: "power2.out", // Easing function
+});
 })();
