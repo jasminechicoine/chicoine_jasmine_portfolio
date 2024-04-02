@@ -49,5 +49,8 @@
   rotation: "360", // Spin effect
   duration: 2, // Animation duration
   ease: "power2.out", // Easing function
-});
+    });
+    
+    
+    
 })();
